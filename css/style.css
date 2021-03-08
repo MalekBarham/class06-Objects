@@ -1,0 +1,22 @@
+
+nav { 
+  float: left;
+    font-size: medium;
+    font-family: Helvetica;
+}
+
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+      font-size :medium;
+   }
+
+.h1 {
+    font-family: cursive;
+}
+ p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
