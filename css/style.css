@@ -20,3 +20,11 @@ body {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
  }
+ table { 
+
+border: 2px black  solid;
+ }
+  
+ td{
+   border: 2px   black  solid;
+ }

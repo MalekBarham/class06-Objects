@@ -1,6 +1,11 @@
 'use strict';
+
+
+
 let hours =  ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
+
 let table=document.getElementById('table');
+
 function CookieStand(location ,minHourelyCustomer,maxHourlyCustomer,avgCookiesPerCoustmoer) {
 this.location=location;
 this.minHourelyCustomer=minHourelyCustomer;
@@ -88,3 +93,106 @@ tableELement.appendChild(tableRow);
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Making table 
+
+// function tableCreator(){
+// for ( let i =0 ; i <locationsList.length;i++) {
+// let locationRow=document.createElement('tr');
+// let td=document.createElement('td');
+// td.textContent=locationsList[i].location;
+// cookiesTable.appendChild(locationRow);
+
+// }
+// tableCreator();
+// }
+
+// // making table - headingsCreator
+// function headingsCreator(){
+// let thead=document.createElement('thead');
+// let emptyTh=document.createElement('th');
+// thead.appendChild(emptyTh);
+// for (let i =0 ; i < hours.length;i++){
+// let th=document.createElement('th');
+// th.textContent=hours[i];
+// thead.appandChild(th);
+
+// }
+// }
+// headingsCreator();
+// tableCreator();
+
+// function  makeHeaderRow() {
+//     const tableRow = document.createElement('th');
+//     let tableHeader = document.createElement('th');
+//     tableHeader.textContent = 'Locations'
+//     tableRow.appendChild(tableHeader)
+//     for ( let i  = 0 ; i < hours.length;i++) {
+// tableHeader = document.createElement('th');
+// tableHeader.textContent=hours[i];
+// tableRow.appendChild(tableHeader);
+//     }
+// tableHeader = document.createElement('th');
+// tableHeader.textContent = 'loction totals';
+// tableRow.appendChild(tableHeader);
+// tableElement.appendChild(tableRow);
+// }
+
+
+
+
+
+
+
+
+// // //  let table = document.getElementById('cookietable');
+
+// // //  for (let i = 0 ; i <3;i++) {
+// // //     let firstHour=document.createElement('th')
+// // //     tableHead.appendChild(firstHour)
+    
+// // //  }
+
+// // // let tableHead=document.createElement('thead');
+// // // let firstHour=document.createElement('th')
+// // // let secoundHour=document.createElement('th')
+// // // let thirdHour=document.createElement('th')
+
+
+// // firstHour.textContent='testing table heading';
+// // secoundHour.textContent='testing table heading';
+// // thuredHour.textContent='testing table heading';
+
+
+// // tableHead.appendChild(firstHour)
+// // tableHead.appendChild(secoundHour)
+// // tableHead.appendChild(thirdHour)
+
+
+
+
+// // let main=document.getElementById('demo');
+
+
+// //  making table using the java script 
